@@ -1,0 +1,68 @@
+#aboutme {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    text-align: left; 
+    margin: 0 auto;
+    padding: 2rem 0; 
+}
+
+.aboutmeTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    width: 100%; 
+}
+
+.aboutDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.ResumeBars {
+    display: flex;
+    align-items: flex-start; 
+    margin: 1.5rem;
+    width: 100%;
+    max-width: 80%;
+}
+
+.Picofme {
+    flex-shrink: 0; 
+    margin-right: 2rem; 
+}
+
+.AboutmeImg {
+    object-fit: cover;
+    height: 15rem;
+    width: 10rem;
+    margin-right: 2rem;
+    border-radius: 10px; 
+}
+
+.resumeLink {
+    text-decoration: none;
+}
+
+.resumeBtn {
+    background:white;
+    color:black;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 1rem;
+    border-radius: 2rem;
+}
+
+.resumeBtn:hover {
+    color:rgb(0, 229, 255);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px soliid rgb(0, 229, 255);
+}
